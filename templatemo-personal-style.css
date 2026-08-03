@@ -881,6 +881,49 @@ https://templatemo.com/tm-593-personal-shape
        
 
         /* Mobile Responsiveness */
+
+        
+        @media (max-width: 1366px) {
+            .hero h1 {
+                font-size: 4.5rem;
+            }
+
+            .nav-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .nav-links {
+                display: flex;
+                list-style: none;
+                gap: 1.8rem;
+                align-items: center;
+            }
+
+            .about {
+                padding: 4rem 0;
+            }
+
+            .about-content {
+                gap: 3rem;
+            }
+
+           
+
+            .portfolio {
+                padding-top: 3rem;
+                padding-bottom: 5rem;
+            }
+
+            .portfolio-grid {
+                margin-top: 1rem;
+            }
+        }
+
         @media (max-width: 1024px) {
             .portfolio-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -889,11 +932,11 @@ https://templatemo.com/tm-593-personal-shape
 
             .about-content {
                 grid-template-columns: 1fr;
-                gap: 4rem;
+                gap: 3.8rem;
             }
 
             .hero h1 {
-                font-size: 4rem;
+                font-size: 3.8rem;
             }
 
             .cta-button {
