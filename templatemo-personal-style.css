@@ -236,7 +236,7 @@ https://templatemo.com/tm-593-personal-shape
             overflow: hidden;
 
             background-image:
-                url('./images/backg.webp');
+                url('./images/tback.webp');
 
             background-size: cover;
             background-position: center ;
@@ -318,7 +318,6 @@ https://templatemo.com/tm-593-personal-shape
             transform: translateY(30px);
             opacity: 0;
             animation: fadeInUp 1s ease 0.8s forwards;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             backdrop-filter: blur(10px);
             letter-spacing: 0.5px;
             border: 2px solid rgba(255, 255, 255, 0.356);
@@ -378,6 +377,8 @@ https://templatemo.com/tm-593-personal-shape
             background: none;
             -webkit-text-fill-color: #074c87;
             color: #6366f1;
+            
+            
         }
         
         .about::before {
@@ -397,6 +398,7 @@ https://templatemo.com/tm-593-personal-shape
             gap: 6rem;
             align-items: center;
             position: relative;
+            transition: transform 0.4s ease;
         }
 
         .about-image {
@@ -407,8 +409,7 @@ https://templatemo.com/tm-593-personal-shape
             position: relative;
             overflow: hidden;
             box-shadow: var(--shadow-2xl);
-            transform: rotate(-2deg);
-            transition: transform 0.4s ease;
+        
         }
 
         .about-image:hover {
@@ -877,27 +878,7 @@ https://templatemo.com/tm-593-personal-shape
             transform: translateY(0);
         }
 
-        .slide-in-left {
-            opacity: 0;
-            transform: translateX(-60px);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .slide-in-left.animate {
-            opacity: 1;
-            transform: translateX(0);
-        }
-
-        .slide-in-right {
-            opacity: 0;
-            transform: translateX(60px);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .slide-in-right.animate {
-            opacity: 1;
-            transform: translateX(0);
-        }
+       
 
         /* Mobile Responsiveness */
         @media (max-width: 1024px) {
@@ -1003,13 +984,23 @@ https://templatemo.com/tm-593-personal-shape
 
             .cta-button {
             font-size: 0.9rem;
-            padding: 0.65rem 0.9rem; 
+            padding: 0.6rem 0.8rem; 
+            
+            }
+
+            .cta-button:hover {
+            transform: translateY(-3px);
+            background: rgba(253, 68, 92, 0.9);
+            border: 2px solid rgba(255, 255, 255, 0.356);
+            
             }
 
             .container {
                 padding: 0 2rem;
             }
 
-            @media (max-width: 480px) {
-        }
+            .about-image{
+                height:400px;
+            }
+
     }
