@@ -922,6 +922,10 @@ https://templatemo.com/tm-593-personal-shape
             .portfolio-grid {
                 margin-top: 1rem;
             }
+
+           .cta-button {
+            padding: 0.8rem 1.6rem;
+        }
         }
 
         @media (max-width: 1024px) {
