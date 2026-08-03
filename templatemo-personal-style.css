@@ -309,7 +309,7 @@ https://templatemo.com/tm-593-personal-shape
         .cta-button {
             display: inline-block;
             padding: 1rem 2rem;
-            background: rgba(255, 159, 180, 0.01);
+            background: rgba(253, 68, 92, 0.9);
             color: var(--text-light);
             text-decoration: none;
             border-radius: 50px;
@@ -319,16 +319,16 @@ https://templatemo.com/tm-593-personal-shape
             opacity: 0;
             animation: fadeInUp 1s ease 0.8s forwards;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 2px solid rgba(141, 121, 255, 0.9);
             backdrop-filter: blur(10px);
             letter-spacing: 0.5px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            background: rgba(253, 68, 92, 0.9);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-            border-color: rgba(255, 255, 255, 0.4);
+            background: #074c87;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            
         }
 
         @keyframes fadeInUp {
