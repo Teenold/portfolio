@@ -321,13 +321,13 @@ https://templatemo.com/tm-593-personal-shape
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             backdrop-filter: blur(10px);
             letter-spacing: 0.5px;
-            border: 2px solid rgba(255, 255, 255, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.356);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
             background: #074c87;
-            border: 2px solid rgba(255, 255, 255, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.356);
             
         }
 
