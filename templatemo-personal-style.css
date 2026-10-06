@@ -883,7 +883,7 @@ https://templatemo.com/tm-593-personal-shape
         /* Mobile Responsiveness */
 
         
-        @media (max-width: 1680px) {
+        @media (max-width: 1360px) {
             .hero h1 {
                 font-size: 4.5rem;
             }
@@ -911,7 +911,6 @@ https://templatemo.com/tm-593-personal-shape
             .about-content {
                 gap: 3rem;
             }
-
            
 
             .portfolio {
@@ -929,6 +928,7 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         @media (max-width: 1024px) {
+
             .portfolio-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
